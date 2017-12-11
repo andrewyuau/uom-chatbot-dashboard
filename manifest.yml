@@ -1,8 +1,8 @@
 ---
 applications:
-- name: insurance-bot-dashboard
-  host: insurance-bot-dashboard
+- name: student-experience-bot-dashboard
+  host: student-experience-bot-dashboard
   memory: 64M
   services:
-  - insurance-db
-  - insurance-tone_analyzer
+  - student-experience-db
+  - student-experience-tone_analyzer
