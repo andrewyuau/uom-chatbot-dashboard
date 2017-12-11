@@ -1,7 +1,7 @@
 ---
 applications:
-- name: student-experience-bot-dashboard
-  host: student-experience-bot-dashboard
+- name: student-experience-dashboard
+  host: student-experience-dashboard
   memory: 64M
   services:
   - student-experience-db
