@@ -2,6 +2,7 @@
 
 # The branch may use a custom manifest
 MANIFEST=manifest.yml
+CF_APP=student-experience-dashboard
 if [ -f ${REPO_BRANCH}-manifest.yml ]; then
   MANIFEST=${REPO_BRANCH}-manifest.yml
   PREFIX=$REPO_BRANCH"-"
