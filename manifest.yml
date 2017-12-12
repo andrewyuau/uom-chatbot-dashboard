@@ -2,7 +2,7 @@
 applications:
 - name: student-experience-dashboard
   host: student-experience-dashboard
-  memory: 128M
+  memory: 256M
   services:
   - student-experience-db
   - student-experience-tone_analyzer
